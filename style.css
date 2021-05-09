@@ -1,10 +1,191 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   font-family: poppins;
+  margin: 0;
+  padding: 0;
 }
+
+header{
+  background-color: #090d26;
+}
+
+.logo{
+  width: 125px;
+  padding: 20px 25px;
+}
+
+.nav-list{
+  color: white;
+  float: right;
+  padding: 25px 50px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav-list:hover{
+  color: black;
+  background-color: antiquewhite;
+  transition: all 0.3s;
+}
+
+.main{
+  color: white;
+  background-image: url("img/background-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 200px;
+  height: 500px;
+}
+.main h1{
+  font-size: 75px;
+}
+
+.learn-more{
+  margin-top: 75px;
+}
+
+.learn-more a:hover{
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  transition: all 0.3s;
+}
+
+.learn-more a{
+  color: black;
+  background-color: white;
+  font-size: 25px;
+  border: 3px solid white;
+  border-radius: 10em;
+  text-decoration: none;
+  padding: 20px 100px;
+  font-weight: bold;
+}
+
+.about-us {
+  padding: 50px;
+  background-image: url("img/background-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 50vh;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-us h1{
+  font-size: 50px;
+}
+.about-us p {
+  padding: 30px 175px 0px 175px; 
+  font-size: 25px;
+}
+
+.achievements{
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 50px;
+}
+
+.achievements p{
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.achievements img{
+  width: 600px;
+  padding-top: 50px;
+}
+
+.informed{
+  padding-top: 50px;
+  text-align: center;
+}
+
+.informed p{
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.informed h3{
+  font-size: 25px;
+}
+
+.register{
+  height: 100px;
+}
+
+.register a{
+  color: white;
+  background-color: black;
+  font-size: 25px;
+  border: 3px solid black;
+  border-radius: 10em;
+  text-decoration: none;
+  padding: 10px 50px;
+  font-weight: bold;
+}
+
+.register a:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  transition: all 0.3s;
+}
+
+footer{
+  padding-left: 10px;
+  border-top:1px solid #eee;
+  padding-top:5px;
+  background-color: #080C25;
+  color: white;
+}
+
+footer h3{
+  padding-bottom: 20px;
+}
+
+.first-row-footer{
+  display: inline-block;
+  padding-right: 50px;
+  display: flex;
+}
+
+.facebook p{
+  padding-right: 10px;
+}
+
+.instagram{
+  display: inline-block;
+}
+
+.first-row-footer p{
+  float: right;
+}
+
+.twitter p{
+  padding-right: 10px;
+}
+
+.youtube{
+  display: inline-block;
+}
+
+.facebook, .instagram, .twitter, .youtube{
+  margin-right: 50px;
+}
+
+.facebook a, .instagram a, .twitter a, .youtube a{
+  text-decoration: none;
+  color: white;
+}
+
 .fab {
-  font-size: 140px;
+  font-size: 30px;
+  height: 50px;
+  padding-right: 10px;
 }
+
 .fa-facebook {
   color: #3b579d;
 }
@@ -17,12 +198,5 @@
 .fa-youtube {
   color: #ff0000;
 }
-.about-us {
-  padding: 30px;
-  background-image: url("/img/background-2.jpg");
-  background-size: cover;
-  color: white;
-}
-.about-us p {
-  width: 50%;
-}
+
+
